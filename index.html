@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="#cadastro">Cadastro</a></li>
+            <li><a href="#visualizacao">Visualização</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div id="cadastro" class="section">
+            <h2>Cadastro de Cliente</h2>
+            <form id="formCadastro">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome"><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                
+                <label for="telefone">Telefone:</label><br>
+                <input type="tel" id="telefone" name="telefone"><br>
+                
+                <input type="submit" value="Cadastrar">
+            </form>
+        </div>
+
+        <div id="visualizacao" class="section">
+            <h2>Visualização de Clientes</h2>
+            <div class="grid-container">
+                <!-- Exemplo de conteúdo da grid -->
+                <div class="grid-item">
+                    <p>Nome: Maria Silva</p>
+                    <p>Email: maria.silva@example.com</p>
+                    <p>Telefone: (11) 99999-9999</p>
+                </div>
+                <div class="grid-item">
+                    <p>Nome: João Souza</p>
+                    <p>Email: joao.souza@example.com</p>
+                    <p>Telefone: (11) 98888-8888</p>
+                </div>
+                <!-- Adicione mais itens aqui -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

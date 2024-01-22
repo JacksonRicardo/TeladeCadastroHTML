@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #ff8c00;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #ff7f00;
+}
+
+.content {
+    padding: 20px;
+    background-color: #e0e0e0;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+#formCadastro {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#formCadastro label, #formCadastro input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#formCadastro input[type="submit"] {
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#formCadastro input[type="submit"]:hover {
+    background-color: #ff7f00;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+}
+
+.grid-item {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 600px) {
+    .navbar ul li {
+        float: none;
+    }
+}
